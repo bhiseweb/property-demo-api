@@ -1,24 +1,22 @@
-# README
+## Requirements 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Ruby (I used 2.4.0)
+- Rails (I used 5.1.6)
 
-Things you may want to cover:
+## Configuration
 
-* Ruby version
+- git clone `https://github.com/bhiseweb/property-demo-api.git`
 
-* System dependencies
+- cd `properties-demo-api`
 
-* Configuration
+- run `bundle install`
 
-* Database creation
+- setup `config/database.yml` according your db configuration. 
 
-* Database initialization
+- run `rake db:create`
 
-* How to run the test suite
+- run `rake db:migrate`
 
-* Services (job queues, cache servers, search engines, etc.)
+- run server `rails s`
 
-* Deployment instructions
-
-* ...
+- run testcases `rspec`
